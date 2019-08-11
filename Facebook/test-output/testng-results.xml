@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Facebook Automation" duration-ms="27515" started-at="2019-07-09T05:05:35Z" finished-at="2019-07-09T05:06:03Z">
+    <groups>
+    </groups>
+    <test name="LandingPageTest" duration-ms="19569" started-at="2019-07-09T05:05:35Z" finished-at="2019-07-09T05:05:55Z">
+      <class name="com.facebook.testcases.LandingPageTest">
+        <test-method status="PASS" signature="landingPageTest()[pri:0, instance:com.facebook.testcases.LandingPageTest@1753acfe]" name="landingPageTest" duration-ms="19533" started-at="2019-07-09T05:05:35Z" finished-at="2019-07-09T05:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTest -->
+      </class> <!-- com.facebook.testcases.LandingPageTest -->
+    </test> <!-- LandingPageTest -->
+    <test name="HomePageTest" duration-ms="7867" started-at="2019-07-09T05:05:55Z" finished-at="2019-07-09T05:06:03Z">
+      <class name="com.facebook.testcases.HomePageTest">
+        <test-method status="FAIL" signature="homePageTest()[pri:0, instance:com.facebook.testcases.HomePageTest@5e5792a0]" name="homePageTest" duration-ms="7857" started-at="2019-07-09T05:05:55Z" finished-at="2019-07-09T05:06:03Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAXMI-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Laxmi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59233}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 52b422baa81dd6960a1d74ccec5dfde6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAXMI-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Laxmi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59233}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 52b422baa81dd6960a1d74ccec5dfde6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at com.facebook.pageactions.HomePageActions.doCreatePost(HomePageActions.java:31)
+at com.facebook.testcases.HomePageTest.homePageTest(HomePageTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+      </class> <!-- com.facebook.testcases.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Facebook Automation -->
+</testng-results>
